@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jbloemendal/jcrmockup.svg?branch=master)](https://travis-ci.org/jbloemendal/jcrmockup)
+
 JcrMockup
 ============
 
