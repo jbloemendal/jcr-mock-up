@@ -5,7 +5,7 @@ JcrMockup
 
 Mock your hippo cms console exports in memory. JCR mock, backed by mockito.
 
-##Examples
+#Examples
 ```
 Session session = JcrMockUp.mockJcrSession("/content.xml");
 Node node = session.getRootNode();
@@ -14,7 +14,7 @@ node.addNode("foobar", "jcrmockup:foobar");
 Node newNode = node.getNode("foobar");
 ```
 
-##Limitations
+#Limitations
  * No support of patterns for getProperty and getNode
  * No support of type constraints according to cnd (e. g. the property defintions is multiple when there are multiple values present)
  * javax.jcr.Node#isType() doesn't support sub types
