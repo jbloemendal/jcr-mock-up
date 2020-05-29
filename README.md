@@ -3,7 +3,7 @@
 JcrMockup
 ============
 
-Mock your hippo cms console exports in memory. JCR mock, backed by mockito.
+Mock hippo cms xml console exports.
 
 ## Examples
 ```
